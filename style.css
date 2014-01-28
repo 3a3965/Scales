@@ -1,0 +1,52 @@
+#boxes{
+width: 770px;
+margin: 0 auto;
+height: 64px;
+}
+#boxes li{
+display:inline-block;
+width: 40px;
+height: 36px;
+background: url(img/box1.png);
+cursor: pointer;
+margin-right: 20px;
+text-indent: -6000px;
+}
+.vesi{
+background: url(img/vesi.png);
+width: 500px;
+height: 580px;
+margin: 0 auto;
+position: relative;
+}
+#arrow{
+background: url(img/arrow.png);
+width: 23px;
+height: 50px;
+position: absolute;
+top: 98px;
+left: 240px;
+z-index: -1;
+}
+#point1{
+background: url(img/point1.png) no-repeat center bottom;
+width: 180px;
+height: 180px;
+position: absolute;
+top: 285px;
+left: 10px;
+z-index: -1;
+}
+#point2{
+background: url(img/point2.png) no-repeat center bottom;
+width: 180px;
+height: 180px;
+position: absolute;
+top: 280px;
+left: 340px;
+z-index: -1;
+}
+.border{
+border: 1px dashed #ccc;
+border-bottom: none;
+}
